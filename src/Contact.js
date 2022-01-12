@@ -124,13 +124,16 @@ function AboutMe() {
             className="span2"
           ></motion.span>
           <motion.span
+            style={{ width: "25px" }}
+            className="span3"
+          ></motion.span>
+          <motion.span
             initial={{ width: 25 }}
             animate={{ width: 40 }}
             transition={{ duration: 0.2 }}
             style={{ width: "25px" }}
-            className="span3"
+            className="span4"
           ></motion.span>
-          <span style={{ width: "25px" }} className="span4"></span>
         </div>
         <div className="page-number">
           <motion.p

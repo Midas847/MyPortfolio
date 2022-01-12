@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [clicked, setclicked] = useState(false);
@@ -26,9 +27,15 @@ function Navbar() {
         </ul>
       </div>
       <div className="class-icons">
-        <i className="fab fa-github fa-lg"></i>
-        <i class="fab fa-linkedin-in fa-lg"></i>
-        <i class="fab fa-instagram fa-lg"></i>
+        <a href="https://github.com/Midas847">
+          <i className="fab fa-github fa-lg"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/saswata-ghosh-a646811b8/">
+          <i class="fab fa-linkedin-in fa-lg"></i>
+        </a>
+        <a href="https://www.instagram.com/midas.jw/">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
       </div>
       <i
         className={`fas ${clicked ? "fa-times fa-lg" : "fa-bars fa-lg"}`}

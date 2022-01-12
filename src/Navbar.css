@@ -40,33 +40,27 @@ header {
 
 .fa-github {
   color: #fff;
-  height: 100%;
-  width: 100%;
   font-size: 2rem;
   z-index: 100;
-  margin-left: -400px;
+  margin-left: 100px;
   margin-top: 10px;
   transition: 0.5s;
 }
 
 .fa-linkedin-in {
   color: #fff;
-  height: 100%;
-  width: 100%;
   font-size: 2rem;
   z-index: 100;
-  margin-left: -330px;
+  margin-left: 190px;
   margin-top: 10px;
   transition: 0.5s;
 }
 
 .fa-instagram {
   color: #fff;
-  height: 100%;
-  width: 100%;
   font-size: 2rem;
   z-index: 100;
-  margin-left: -260px;
+  margin-left: 280px;
   margin-top: 10px;
   transition: 0.5s;
 }
