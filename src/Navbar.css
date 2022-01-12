@@ -1,0 +1,161 @@
+header {
+  margin-top: 180px;
+  margin-left: -530px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 40px 0;
+  color: #fff;
+  display: flex;
+  z-index: 3;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  transition: all 1.5s ease;
+}
+
+.name {
+  text-decoration: none;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  position: relative;
+  transition: 0.3s;
+  color: #fff;
+  z-index: 10;
+  font-family: myThirdFont;
+}
+
+.name:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.class-icons {
+  z-index: 999999;
+}
+
+.fab {
+  position: absolute;
+}
+
+.fa-github {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  z-index: 100;
+  margin-left: -400px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.fa-linkedin-in {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  z-index: 100;
+  margin-left: -330px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.fa-instagram {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  z-index: 100;
+  margin-left: -260px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.fa-bars {
+  position: absolute;
+  float: right;
+  margin-left: 1430px;
+  font-size: 2rem;
+  margin-top: 10px;
+  transition: 1s;
+  z-index: 999999;
+  transition: all 1.5s ease;
+}
+
+.fa-times {
+  position: absolute;
+  float: right;
+  margin-left: 1430px;
+  font-size: 2rem;
+  margin-top: 10px;
+  transition: 1s;
+  z-index: 999999;
+  transition: all 1.5s ease;
+}
+
+.fab:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.global-nav ul {
+  list-style: none;
+  margin-left: -5rem;
+  transition: all 2s ease;
+}
+
+.global-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 7rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  font-family: mySecondFont;
+  font-weight: normal;
+  margin-top: 3rem;
+  padding: 0 153px;
+  transition: all 2s ease;
+}
+
+.global-nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 10px;
+  margin-top: 50px;
+  left: 400px;
+  background: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  border-radius: 20px;
+}
+
+.global-nav ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.global-nav {
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 216vh;
+  height: 110vh;
+  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+  transition: all 1.5s ease;
+}
+
+.global-nav_active {
+  height: 0vh;
+  transition: all 1.5s ease;
+}
+
+.openli {
+  display: none;
+}

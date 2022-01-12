@@ -1,0 +1,73 @@
+.works-img {
+  position: absolute;
+  top: 300px;
+  right: 420px;
+  width: 50rem;
+  height: 33rem;
+}
+
+.heading {
+  z-index: 1;
+}
+
+.name-span {
+  color: #ff4d5a;
+}
+
+.page-number {
+  position: absolute;
+  overflow-y: hidden;
+  right: 3rem;
+  bottom: 4rem;
+  font-size: 10rem;
+  color: #ff4d5a;
+  font-family: "Abril Fatface";
+}
+
+.page-number p {
+  line-height: 1.1;
+  text-shadow: 0 10px 30px rgb(2 11 22 / 50%);
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.span2,
+.span3,
+.span4,
+.span1 {
+  background: #fff;
+  z-index: 100;
+  display: block;
+  height: 3px;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: 40px;
+  transition: 0.3s;
+}
+
+.fa-angle-double-up {
+  color: #fff;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: -250px;
+  z-index: 3;
+}
+
+.show-btn {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: -1050px;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  background: #ff4d5a;
+  line-height: 1;
+  font-weight: 200;
+  padding: 18px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  font-family: mySecondFont;
+  cursor: pointer;
+}

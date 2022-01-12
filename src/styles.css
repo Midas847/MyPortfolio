@@ -1,0 +1,12 @@
+.swiper {
+  height: 100vh;
+}
+
+.swiper-wrapper {
+  transition-delay: 0.5s;
+}
+
+.swiper-slide {
+  overflow: hidden;
+  transition: all cubic-bezier(0.57, 0.01, 0.45, 1.03) 0.5s;
+}

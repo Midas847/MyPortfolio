@@ -1,0 +1,284 @@
+.works-img {
+  position: absolute;
+  top: 300px;
+  right: 420px;
+  width: 50rem;
+  height: 33rem;
+}
+
+.heading {
+  z-index: 1;
+}
+
+.name-span {
+  color: #ff4d5a;
+}
+
+.page-number {
+  position: absolute;
+  overflow-y: hidden;
+  right: 3rem;
+  bottom: 4rem;
+  font-size: 10rem;
+  color: #ff4d5a;
+  font-family: "Abril Fatface";
+}
+
+.page-number p {
+  line-height: 1.1;
+  text-shadow: 0 10px 30px rgb(2 11 22 / 50%);
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.page-number-desc {
+  position: absolute;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ff4d5a;
+  font-family: "Abril Fatface";
+  left: 100px;
+  top: 100px;
+}
+
+.page-number-desc span {
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background-color: #072142;
+  left: -100px;
+  top: 85px;
+}
+
+.page-number-desc p {
+  line-height: 1.1;
+  word-wrap: break-word;
+  white-space: normal;
+  margin-left: -40px;
+}
+
+.span2,
+.span3,
+.span4,
+.span1 {
+  background: #fff;
+  z-index: 100;
+  display: block;
+  height: 3px;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: 40px;
+  transition: 0.3s;
+}
+
+.fa-angle-double-up {
+  color: #fff;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: -250px;
+  z-index: 3;
+}
+
+.show-btn {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: -1050px;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  background: #ff4d5a;
+  line-height: 1;
+  font-weight: 200;
+  padding: 18px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  font-family: mySecondFont;
+  cursor: pointer;
+}
+
+.new-page {
+  position: absolute;
+  height: 340%;
+  width: 100%;
+  margin-top: 3250px;
+}
+
+.who-heading {
+  font-size: 2.5rem;
+  color: #072142;
+  letter-spacing: 0.2em;
+  margin-right: 3.2rem;
+  font-family: mySecondFont;
+  margin-top: 160px;
+  margin-left: -850px;
+}
+
+.about-para {
+  margin-left: 300px;
+  margin-top: -60px;
+}
+
+.about-para p {
+  font-family: mySecondFont;
+  opacity: 0.5;
+  line-height: 2;
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin-left: 480px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.about-para h1 {
+  color: #072142;
+  font-size: 1.5rem;
+  font-family: mySecondFont;
+  letter-spacing: 0.2em;
+}
+
+.face {
+  max-width: 600px;
+  max-height: 500px;
+  margin-left: 80px;
+}
+
+.skill-set {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-left: 120px;
+}
+
+.skill-set ul {
+  width: 47%;
+  list-style: none;
+}
+
+.skill-sey li {
+  list-style: none;
+  align-items: center;
+  list-style-type: none;
+  line-height: 2.5;
+}
+
+.skill-set-icon {
+  width: 10%;
+  align-self: center;
+}
+
+.skill-set-icon img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.skill-set-detail {
+  width: 85%;
+}
+
+.skill-set-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -4.5rem;
+  margin-left: 80px;
+}
+
+.skill-set-name {
+  display: flex;
+  align-items: flex-end;
+}
+
+.skill-set-name h4 {
+  font-size: 1.5rem;
+  color: #072142;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+  font-family: mySecondFont;
+}
+
+.skill-set-name p {
+  font-size: 1rem;
+  color: #c0c5ca;
+  margin-left: 0.8rem;
+  margin-bottom: 30px;
+  letter-spacing: 0.2em;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.skill-set-title {
+  color: #ff4d5a;
+  font-size: 1.4rem;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+  font-family: mySecondFont;
+}
+
+.skill-set-percent {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.skill-set-bar {
+  width: 86%;
+  height: 1rem;
+  background: #fff;
+  position: relative;
+  margin-left: 80px;
+  margin-top: -20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px 0 rgb(7 33 66 / 15%);
+}
+
+.skill-set-bar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 10px;
+  width: 90%;
+  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.nodeImg::after {
+  width: 70%;
+}
+
+.CImg::after {
+  width: 80%;
+}
+
+.pyImg::after {
+  width: 80%;
+}
+
+.javaImg::after {
+  width: 70%;
+}
+
+.footer {
+  height: 400px;
+  width: 100%;
+  margin-top: 210px;
+  background-image: linear-gradient(101deg, #072142, #8c2b7a 52%, #ff4d5a);
+}
+
+.footer a {
+  position: absolute;
+  font-family: mySecondFont;
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  line-height: 1.3;
+  color: #fff;
+  letter-spacing: 0.2em;
+  margin-top: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+}
