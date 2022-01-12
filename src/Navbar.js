@@ -12,17 +12,17 @@ function Navbar() {
       <div className={`${clicked ? "global-nav" : "global-nav_active"}`}>
         <ul className={`${clicked ? "" : "openli"}`}>
           <li>
-            <a href="#Home">HOME</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="#Works">WORKS</a>
+            <a href="/works">WORKS</a>
           </li>
 
           <li>
-            <a href="">ABOUT ME</a>
+            <a href="/about">ABOUT ME</a>
           </li>
           <li>
-            <a href="">CONTACT</a>
+            <a href="/contact">CONTACT</a>
           </li>
         </ul>
       </div>
