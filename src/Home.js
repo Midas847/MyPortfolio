@@ -33,7 +33,7 @@ function Home() {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 1000);
+    }, 4000);
   }, []);
 
   return (
