@@ -2,7 +2,6 @@ import React, { useRef, useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Home from "./Home";
 import Works from "./Works";
-import "./styles.css";
 import {
   BrowserRouter as Router,
   Routes,

@@ -12,9 +12,10 @@
   font-family: myThirdFont;
   src: url(Futura_Regular.ttf);
 }
-
+.App {
+  overflow: hidden;
+}
 .main-page {
-  background-image: url(images/moonlight.svg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin-left: 530px;
@@ -166,7 +167,6 @@
   position: absolute;
   width: 40px;
   margin-left: -490px;
-  overflow: hidden;
   z-index: 90;
   top: 50%;
   opacity: 1;

@@ -37,7 +37,12 @@ function Home() {
   }, []);
 
   return (
-    <MouseParallaxContainer className="App">
+    <MouseParallaxContainer
+      className="App"
+      containerStyles={{
+        overflow: "none",
+      }}
+    >
       {loading ? (
         <ClimbingBoxLoader size={20} color={"#F37A24"} loading={loading} />
       ) : (
