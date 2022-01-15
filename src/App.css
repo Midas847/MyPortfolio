@@ -3,6 +3,7 @@ body {
 }
 
 .App {
+  box-sizing: border-box;
   text-align: center;
   background-color: #061d3a;
   box-sizing: border-box;

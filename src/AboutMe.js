@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import "./AboutMe.css";
-import cloud01 from "./images/cloud01.svg";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
+import cloudbg from "./images/moonlight.svg";
+import star from "./images/star.svg";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -87,9 +88,6 @@ function AboutMe() {
           <p className="scrolldown">CLICK ME</p>
         </Link>
         <span className="verticaline"></span>
-        <Link to="/works">
-          <i className="fas fa-angle-double-up fa-lg" />
-        </Link>
         <MouseParallaxContainer
           className="moon"
           containerStyles={{
@@ -97,19 +95,46 @@ function AboutMe() {
             overflow: "none",
           }}
         >
-          <MouseParallaxChild className="cloud01" factorX={0.04} factorY={0.06}>
-            <img src={cloud01} alt="" />
+          <Link
+            to="/works"
+            style={{ marginTop: "-170px", marginLeft: "550px" }}
+          >
+            <i className="fas fa-angle-double-up fa-lg" />
+          </Link>
+          <MouseParallaxChild
+            className="moon_cloud"
+            factorX={0.03}
+            factorY={0.05}
+          >
+            <motion.img
+              variants={fadeRight}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.7 }}
+              src={cloudbg}
+              alt=""
+            />
           </MouseParallaxChild>
           <motion.img
             variants={fadeDown}
             initial="hidden"
             animate="visible"
             transition={{ duration: 1 }}
-            className="works-img"
+            className="works-img2"
             src={about}
             alt=""
           />
         </MouseParallaxContainer>
+        <MouseParallaxChild className="star" factorX={0.03} factorY={0.05}>
+          <motion.img
+            variants={fadeRight}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.7 }}
+            src={star}
+            alt=""
+          />
+        </MouseParallaxChild>
         <div className="nav-left">
           <span style={{ width: "25px" }} className="span1"></span>
           <motion.span
@@ -125,7 +150,7 @@ function AboutMe() {
           ></motion.span>
           <span style={{ width: "25px" }} className="span4"></span>
         </div>
-        <div className="page-number">
+        <div className="page-number1">
           <motion.p
             variants={fadeUp}
             initial="hidden"
@@ -144,6 +169,7 @@ function AboutMe() {
         transition={{ duration: 0.5 }}
         href="/aboutme"
         className="show-btn"
+        style={{ marginTop: "580px" }}
       >
         Show me more
       </motion.a>

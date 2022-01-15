@@ -12,38 +12,37 @@
   font-family: myThirdFont;
   src: url(Futura_Regular.ttf);
 }
-.App {
-  overflow: hidden;
-}
+
 .main-page {
-  background-repeat: no-repeat;
-  background-size: 120%;
-  margin-left: 530px;
-  margin-top: -100px;
-  height: 140vh;
-  width: 140vh;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .moon {
   display: flex;
-  height: 140vh;
+  height: 100%;
   width: 100%;
 }
 
 .moon_img {
   position: absolute;
-  margin-top: 348px;
-  margin-left: 27px;
+  margin-top: 120px;
+  margin-left: 400px;
+}
+
+.moon_cloud {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: -20px;
 }
 
 .heading {
   position: absolute;
   font-size: 100px;
   color: #fff;
-  margin-left: -370px;
-  margin-top: 400px;
-  /*font-family: "Be Vietnam Pro", sans-serif;
-  font-family: "Montserrat", sans-serif;*/
+  margin-top: 220px;
+  margin-left: 170px;
   font-family: mySecondFont;
   font-weight: normal;
   text-shadow: 0 10px 30px rgb(2 11 22 / 50%);
@@ -54,8 +53,8 @@
   position: absolute;
   font-size: 100px;
   color: #fff;
-  margin-left: -370px;
-  margin-top: 510px;
+  margin-top: 340px;
+  margin-left: 170px;
   font-family: mySecondFont;
   font-weight: normal;
   text-shadow: 0 10px 30px rgb(2 11 22 / 50%);
@@ -66,50 +65,57 @@
 .moon_text {
   position: absolute;
   z-index: 1;
-  margin-top: 460px;
-  margin-left: -60px;
+  margin-top: 260px;
+  margin-left: 300px;
   font-size: 4rem;
   letter-spacing: 0.1em;
   text-shadow: 0 10px 15px rgb(2 11 22 / 20%);
   color: #ff4d5a;
-  /*font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;*/
   font-family: myFirstFont;
+}
+
+.star {
+  width: 1300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 29.427%;
 }
 
 .cloud02 {
   position: absolute;
-  margin-top: 270px;
-  margin-left: -180px;
+  margin-top: 70px;
+  margin-left: 200px;
 }
 
 .cloud01 {
   position: absolute;
-  margin-top: 190px;
-  margin-left: 250px;
+  margin-top: 10px;
+  margin-left: 650px;
 }
 
 .cloud_front1 {
   position: absolute;
-  margin-top: 380px;
-  margin-left: 350px;
+  margin-top: 280px;
+  margin-left: 750px;
 }
 
 .cloud2 {
   position: absolute;
-  margin-top: 690px;
-  margin-left: 250px;
+  margin-top: 550px;
+  margin-left: 650px;
 }
 
 .cloud3 {
   position: absolute;
-  margin-top: 650px;
-  margin-left: -250px;
+  margin-top: 450px;
+  margin-left: 150px;
 }
 
 .bar1 {
   position: absolute;
-  margin-top: 620px;
-  margin-left: -380px;
+  margin-top: 450px;
+  margin-left: 160px;
   display: block;
   width: 88px;
   height: 4px;
@@ -119,8 +125,8 @@
 
 .bar2 {
   position: absolute;
-  margin-top: 640px;
-  margin-left: -320px;
+  margin-top: 470px;
+  margin-left: 220px;
   display: block;
   width: 88px;
   height: 4px;
@@ -130,8 +136,8 @@
 
 .para {
   position: absolute;
-  margin-top: 700px;
-  margin-left: -380px;
+  margin-top: 530px;
+  margin-left: 160px;
   color: #fff;
   font-size: 2rem;
   letter-spacing: 0.15em;
@@ -140,8 +146,8 @@
 
 .scrolldown {
   position: absolute;
-  margin-top: 740px;
-  margin-left: -485px;
+  margin-top: 540px;
+  margin-left: 35px;
   color: #fff;
   font-family: mySecondFont;
   font-size: 0.8rem;
@@ -155,10 +161,11 @@
 
 .verticaline {
   position: absolute;
-  margin-top: 850px;
-  margin-left: -983px;
+  margin-top: 645px;
   background: #fff;
-  height: 50px;
+  height: 70px;
+  left: 0;
+  margin-left: 40px;
   width: 2px;
 }
 
@@ -166,9 +173,10 @@
   margin: 0;
   position: absolute;
   width: 40px;
-  margin-left: -490px;
+  left: 30px;
+  overflow: hidden;
   z-index: 90;
-  top: 50%;
+  top: 39%;
   opacity: 1;
 }
 

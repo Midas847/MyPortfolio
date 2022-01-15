@@ -36,13 +36,19 @@ function Navbar() {
         <a href="https://www.instagram.com/midas.jw/">
           <i class="fab fa-instagram fa-lg"></i>
         </a>
+        {/*<i
+          className={`fas ${clicked ? "fa-times fa-lg" : "fa-bars"}`}
+          onClick={() => {
+            setclicked(!clicked);
+          }}
+        ></i>*/}
+        <div
+          className={`${clicked ? "menu-icon active" : "menu-icon"}`}
+          onClick={() => {
+            setclicked(!clicked);
+          }}
+        ></div>
       </div>
-      <i
-        className={`fas ${clicked ? "fa-times fa-lg" : "fa-bars fa-lg"}`}
-        onClick={() => {
-          setclicked(!clicked);
-        }}
-      ></i>
     </header>
   );
 }

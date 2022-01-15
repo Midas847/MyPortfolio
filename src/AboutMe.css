@@ -1,7 +1,7 @@
-.works-img {
+.works-img2 {
   position: absolute;
-  top: 300px;
-  right: 420px;
+  top: 100px;
+  left: 160px;
   width: 50rem;
   height: 33rem;
 }
@@ -14,11 +14,11 @@
   color: #ff4d5a;
 }
 
-.page-number {
+.page-number1 {
   position: absolute;
   overflow-y: hidden;
   right: 3rem;
-  bottom: 4rem;
+  bottom: 0.5rem;
   font-size: 10rem;
   color: #ff4d5a;
   font-family: "Abril Fatface";

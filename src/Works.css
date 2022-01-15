@@ -1,7 +1,7 @@
-.works-img {
+.working-img {
   position: absolute;
-  top: 300px;
-  right: 420px;
+  margin-top: 100px;
+  margin-left: 160px;
   width: 50rem;
   height: 33rem;
 }
@@ -14,11 +14,11 @@
   color: #ff4d5a;
 }
 
-.page-number {
+.page-no {
   position: absolute;
   overflow-y: hidden;
   right: 3rem;
-  bottom: 4rem;
+  bottom: 0.1rem;
   font-size: 10rem;
   color: #ff4d5a;
   font-family: "Abril Fatface";
@@ -31,32 +31,16 @@
   white-space: normal;
 }
 
-.span2,
-.span3,
-.span4,
-.span1 {
-  background: #fff;
-  z-index: 100;
-  display: block;
-  height: 3px;
-  border-radius: 5px;
-  background: #fff;
-  margin-top: 40px;
-  transition: 0.3s;
+.arrow-upp {
+  position: absolute;
+  margin-top: 100px;
 }
 
-.fa-angle-double-up {
-  color: #fff;
+.showing-btn {
   position: absolute;
-  margin-top: 210px;
-  margin-left: -250px;
-  z-index: 3;
-}
-
-.show-btn {
-  position: absolute;
-  margin-top: 500px;
-  margin-left: -1050px;
+  margin-top: 550px;
+  margin-left: 150px;
+  left: 0;
   display: inline-block;
   font-size: 1rem;
   color: #fff;

@@ -1,7 +1,7 @@
-.works-img {
+.contact-img {
   position: absolute;
-  top: 300px;
-  right: 420px;
+  top: 100px;
+  right: 560px;
   width: 50rem;
   height: 33rem;
 }
@@ -17,8 +17,8 @@
 .page-number {
   position: absolute;
   overflow-y: hidden;
-  right: 3rem;
-  bottom: 4rem;
+  right: 2.1rem;
+  bottom: 0.5rem;
   font-size: 10rem;
   color: #ff4d5a;
   font-family: "Abril Fatface";

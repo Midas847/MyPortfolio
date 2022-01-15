@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import "./AboutMe.css";
-import cloud01 from "./images/cloud01.svg";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import Navbar from "./Navbar";
+import cloudbg from "./images/moonlight.svg";
+import star from "./images/star.svg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import about from "./images/sample2.jpg";
@@ -88,6 +88,14 @@ function AboutMeDesc() {
             ></motion.i>
           </Link>
         </motion.h1>
+        <motion.img
+          style={{ marginLeft: "26.1rem", marginTop: "-10px" }}
+          animate={{ scale: 1.35 }}
+          transition={{ duration: 1 }}
+          className="works-img2"
+          src={about}
+          alt=""
+        />
         <motion.span
           variants={fadeLeft}
           initial="hidden"
@@ -119,14 +127,6 @@ function AboutMeDesc() {
           className="verticaline"
           style={{ bottom: "4.5rem", marginLeft: "-61rem" }}
         ></span>
-        <motion.img
-          animate={{ scale: 1.35 }}
-          style={{ left: "48px", top: "285px" }}
-          transition={{ duration: 1 }}
-          className="works-img"
-          src={about}
-          alt=""
-        />
         <div className="nav-left">
           <motion.span
             initial={{ width: 25 }}

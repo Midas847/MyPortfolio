@@ -8,7 +8,8 @@ import cloud2 from "./images/cloud2.svg";
 import moon from "./images/moon.svg";
 import cloud3 from "./images/cloud3.svg";
 import cloud01 from "./images/cloud01.svg";
-import { useNavigate } from "react-router-dom";
+import cloudbg from "./images/moonlight.svg";
+import star from "./images/star.svg";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
@@ -37,19 +38,13 @@ function Home() {
   }, []);
 
   return (
-    <MouseParallaxContainer
-      className="App"
-      containerStyles={{
-        overflow: "none",
-      }}
-    >
+    <MouseParallaxContainer className="App">
       {loading ? (
         <ClimbingBoxLoader size={20} color={"#F37A24"} loading={loading} />
       ) : (
         <MouseParallaxContainer
           className="main-page"
           containerStyles={{
-            width: "100%",
             overflow: "none",
           }}
         >
@@ -102,7 +97,6 @@ function Home() {
           <MouseParallaxContainer
             className="moon"
             containerStyles={{
-              width: "100%",
               overflow: "none",
             }}
           >
@@ -121,6 +115,20 @@ function Home() {
               </motion.p>
             </MouseParallaxChild>
             <MouseParallaxChild
+              className="moon_cloud"
+              factorX={0.03}
+              factorY={0.05}
+            >
+              <motion.img
+                variants={fadeRight}
+                initial="hidden"
+                animate="visible"
+                transition={{ duration: 0.7 }}
+                src={cloudbg}
+                alt=""
+              />
+            </MouseParallaxChild>
+            <MouseParallaxChild
               className="moon_img"
               factorX={0.03}
               factorY={0.05}
@@ -131,6 +139,16 @@ function Home() {
                 animate="visible"
                 transition={{ duration: 0.7 }}
                 src={moon}
+                alt=""
+              />
+            </MouseParallaxChild>
+            <MouseParallaxChild className="star" factorX={0.03} factorY={0.05}>
+              <motion.img
+                variants={fadeRight}
+                initial="hidden"
+                animate="visible"
+                transition={{ duration: 0.7 }}
+                src={star}
                 alt=""
               />
             </MouseParallaxChild>

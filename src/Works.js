@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import "./Works.css";
-import cloud02 from "./images/cloud02.svg";
 import works from "./images/LandingPage.png";
-import { useNavigate } from "react-router-dom";
-import cloud01 from "./images/cloud01.svg";
+import cloudbg from "./images/moonlight.svg";
+import star from "./images/star.svg";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
 import Navbar from "./Navbar";
-import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -92,6 +90,7 @@ function Home() {
           animate="visible"
           transition={{ duration: 1 }}
           className="para"
+          style={{ marginLeft: "160px" }}
         >
           website
         </motion.p>
@@ -99,9 +98,6 @@ function Home() {
           <p className="scrolldown">CLICK ME</p>
         </Link>
         <span className="verticaline"></span>
-        <Link to="/">
-          <i className="fas fa-angle-double-up fa-lg" />
-        </Link>
         <MouseParallaxContainer
           className="moon"
           containerStyles={{
@@ -109,19 +105,43 @@ function Home() {
             overflow: "none",
           }}
         >
-          <MouseParallaxChild className="cloud01" factorX={0.04} factorY={0.06}>
-            <img src={cloud01} alt="" />
+          <Link to="/" style={{ marginTop: "-170px", marginLeft: "550px" }}>
+            <i className="fas fa-angle-double-up fa-lg" />
+          </Link>
+          <MouseParallaxChild
+            className="moon_cloud"
+            factorX={0.03}
+            factorY={0.05}
+          >
+            <motion.img
+              variants={fadeRight}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.7 }}
+              src={cloudbg}
+              alt=""
+            />
           </MouseParallaxChild>
           <motion.img
             variants={fadeDown}
             initial="hidden"
             animate="visible"
             transition={{ duration: 1 }}
-            className="works-img"
+            className="working-img"
             src={works}
             alt=""
           />
         </MouseParallaxContainer>
+        <MouseParallaxChild className="star" factorX={0.03} factorY={0.05}>
+          <motion.img
+            variants={fadeRight}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.7 }}
+            src={star}
+            alt=""
+          />
+        </MouseParallaxChild>
         <div className="nav-left">
           <span style={{ width: "25px" }} className="span1"></span>
           <motion.span
@@ -134,7 +154,7 @@ function Home() {
           <span style={{ width: "25px" }} className="span3"></span>
           <span style={{ width: "25px" }} className="span4"></span>
         </div>
-        <div className="page-number">
+        <div className="page-no">
           <motion.p
             variants={fadeUp}
             initial="hidden"
@@ -151,7 +171,7 @@ function Home() {
         animate="visible"
         transition={{ duration: 0.5 }}
         href="https://github.com/Midas847/AES_BANK_SYSTEM"
-        className="show-btn"
+        className="showing-btn"
       >
         Show me more
       </motion.a>
