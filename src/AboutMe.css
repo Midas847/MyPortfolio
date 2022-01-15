@@ -283,3 +283,22 @@
   align-items: center;
   margin-left: 500px;
 }
+
+/*.works-img3 {
+  position: absolute;
+  top: 93px;
+  left: 36rem;
+  width: 50rem;
+  height: 33rem;
+}
+*/
+
+.works-img3 {
+  background: url(./images/sample2.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  width: 60.677%;
+  height: 100vh;
+  margin: 0 0 0 auto;
+  box-shadow: none;
+}

@@ -88,20 +88,21 @@ function AboutMeDesc() {
             ></motion.i>
           </Link>
         </motion.h1>
-        <motion.img
-          style={{ marginLeft: "26.1rem", top: "93px" }}
+        {/*<motion.img
           animate={{ scale: 1.35 }}
           transition={{ duration: 1 }}
-          className="works-img2"
+          className="works-img3"
           src={about}
           alt=""
-        />
+        />*/}
+        <div className="works-img3"></div>
         <motion.span
           variants={fadeLeft}
           initial="hidden"
           animate="visible"
           transition={{ duration: 0.7 }}
           className="bar1"
+          style={{ top: "0" }}
         ></motion.span>
         <motion.span
           variants={fadeLeft}
@@ -109,6 +110,7 @@ function AboutMeDesc() {
           animate="visible"
           transition={{ duration: 0.85 }}
           className="bar2"
+          style={{ top: "0" }}
         ></motion.span>
         <motion.p
           variants={fadeLeft}
@@ -117,15 +119,16 @@ function AboutMeDesc() {
           style={{ zIndex: 100 }}
           transition={{ duration: 1 }}
           className="para"
+          style={{ top: "-10px", left: "-10px" }}
         >
           I love Design and Technology
         </motion.p>
-        <p className="scrolldown" style={{ marginBottom: "10rem" }}>
+        <p className="scrolldown" style={{ marginBottom: "10rem", top: "0" }}>
           SCROLLDOWN
         </p>
         <span
           className="verticaline"
-          style={{ bottom: "4.5rem", marginLeft: "-61rem" }}
+          style={{ top: "25px", height: "45px" }}
         ></span>
         <div className="nav-left">
           <motion.span
