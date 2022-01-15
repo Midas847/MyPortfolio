@@ -89,7 +89,7 @@ function AboutMeDesc() {
           </Link>
         </motion.h1>
         <motion.img
-          style={{ marginLeft: "26.1rem", marginTop: "-10px" }}
+          style={{ marginLeft: "26.1rem", top: "93px" }}
           animate={{ scale: 1.35 }}
           transition={{ duration: 1 }}
           className="works-img2"
