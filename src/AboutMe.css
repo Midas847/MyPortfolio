@@ -99,6 +99,7 @@
 }
 
 .new-page {
+  overflow: hidden;
   position: absolute;
   height: 340%;
   width: 100%;
