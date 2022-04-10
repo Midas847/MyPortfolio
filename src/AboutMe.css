@@ -1,8 +1,8 @@
 .works-img2 {
   position: absolute;
   top: 100px;
-  left: 160px;
-  width: 50rem;
+  right: 33%;
+  max-width: 60%;
   height: 33rem;
 }
 
@@ -79,7 +79,7 @@
   z-index: 3;
 }
 
-.show-btn {
+/* .show-btn {
   position: absolute;
   margin-top: 500px;
   margin-left: -1050px;
@@ -96,7 +96,7 @@
   text-decoration: none;
   font-family: mySecondFont;
   cursor: pointer;
-}
+} */
 
 .new-page {
   overflow: hidden;
@@ -284,15 +284,6 @@
   margin-left: 500px;
 }
 
-/*.works-img3 {
-  position: absolute;
-  top: 93px;
-  left: 36rem;
-  width: 50rem;
-  height: 33rem;
-}
-*/
-
 .works-img3 {
   background: url(./images/sample2.jpg) no-repeat center;
   background-size: cover;
@@ -301,4 +292,13 @@
   height: 100vh;
   margin: 0 0 0 auto;
   box-shadow: none;
+}
+
+@media (max-width: 400px) {
+  .works-img2 {
+    right: 39%;
+    margin-top: 90px;
+    max-width: 350px;
+    height: 200px;
+  }
 }

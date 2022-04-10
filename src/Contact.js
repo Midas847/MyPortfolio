@@ -104,7 +104,7 @@ function AboutMe() {
           }}
         >
           <Link
-            to="/works"
+            to="/about"
             style={{ marginTop: "-170px", marginLeft: "550px" }}
           >
             <i className="fas fa-angle-double-up fa-lg" />

@@ -88,13 +88,6 @@ function AboutMeDesc() {
             ></motion.i>
           </Link>
         </motion.h1>
-        {/*<motion.img
-          animate={{ scale: 1.35 }}
-          transition={{ duration: 1 }}
-          className="works-img3"
-          src={about}
-          alt=""
-        />*/}
         <div className="works-img3"></div>
         <motion.span
           variants={fadeLeft}

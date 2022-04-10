@@ -180,3 +180,20 @@ header {
 .openli {
   display: none;
 }
+
+@media (max-width: 483px) {
+  .class-icons a {
+    visibility: hidden;
+  }
+  .menu-icon active,
+  .menu-icon {
+    margin-left: -80px;
+  }
+  .global-nav ul {
+    margin-top: 150px;
+  }
+  .global-nav ul li a {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

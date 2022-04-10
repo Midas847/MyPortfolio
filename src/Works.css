@@ -1,9 +1,9 @@
 .working-img {
   position: absolute;
   margin-top: 100px;
-  margin-left: 160px;
-  width: 50rem;
+  max-width: 56%;
   height: 33rem;
+  right: 33%;
 }
 
 .heading {
@@ -54,4 +54,30 @@
   text-decoration: none;
   font-family: mySecondFont;
   cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .heading2 {
+    z-index: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .working-img {
+    margin-top: 110px;
+    max-width: 350px;
+    height: 200px;
+  }
+  .page-no {
+    font-size: 5rem;
+    bottom: 18rem;
+  }
+  .showing-btn {
+    padding: 9px 16px;
+    margin-top: 350px;
+    margin-left: 120px;
+  }
+  .fa-angle-double-up {
+    margin-left: 40%;
+  }
 }

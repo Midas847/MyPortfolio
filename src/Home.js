@@ -34,7 +34,7 @@ function Home() {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 4000);
+    }, 8000);
   }, []);
 
   return (
@@ -120,6 +120,7 @@ function Home() {
               factorY={0.05}
             >
               <motion.img
+                className="cloud-img"
                 variants={fadeRight}
                 initial="hidden"
                 animate="visible"
@@ -134,6 +135,7 @@ function Home() {
               factorY={0.05}
             >
               <motion.img
+                className="moon-img"
                 variants={fadeRight}
                 initial="hidden"
                 animate="visible"
@@ -158,6 +160,7 @@ function Home() {
               factorY={0.06}
             >
               <motion.img
+                className="cloud01img"
                 variants={fadeRight}
                 initial="hidden"
                 animate="visible"
@@ -172,6 +175,7 @@ function Home() {
               factorY={0.05}
             >
               <motion.img
+                className="cloud02img"
                 variants={fadeRight}
                 initial="hidden"
                 animate="visible"
@@ -186,6 +190,7 @@ function Home() {
               factorY={0.07}
             >
               <motion.img
+                className="cloud1img"
                 variants={fadeRight}
                 initial="hidden"
                 animate="visible"
@@ -200,6 +205,7 @@ function Home() {
               factorY={0.05}
             >
               <motion.img
+                className="cloud3img"
                 variants={fadeRight}
                 initial="hidden"
                 animate="visible"
@@ -214,6 +220,7 @@ function Home() {
               factorY={0.05}
             >
               <motion.img
+                className="cloud2img"
                 variants={fadeRight}
                 initial="hidden"
                 animate="visible"

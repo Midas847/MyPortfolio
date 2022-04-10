@@ -105,7 +105,7 @@ function Home() {
             overflow: "none",
           }}
         >
-          <Link to="/" style={{ marginTop: "-170px", marginLeft: "550px" }}>
+          <Link to="/" style={{ marginTop: "-170px", marginLeft: "37%" }}>
             <i className="fas fa-angle-double-up fa-lg" />
           </Link>
           <MouseParallaxChild

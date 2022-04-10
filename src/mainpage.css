@@ -193,3 +193,104 @@
   margin-top: 40px;
   transition: 0.3s;
 }
+
+@media (max-width: 1200px) {
+  .nav-left {
+    top: 80%;
+    transform: rotate(270deg);
+    left: 50%;
+  }
+}
+
+@media (max-width: 1045px) {
+  .heading {
+    font-size: 60px;
+    margin-left: 70px;
+  }
+  .heading2 {
+    font-size: 60px;
+    margin-top: 300px;
+    margin-left: 70px;
+  }
+  .para {
+    margin-left: 78px;
+  }
+  .bar1 {
+    margin-left: 80px;
+  }
+  .bar2 {
+    margin-left: 130px;
+  }
+  .moon_img {
+    margin-left: 210px;
+    margin-top: 185px;
+  }
+  .moon-img {
+    height: 350px;
+    width: 350px;
+  }
+  .moon_cloud {
+    margin-top: -40px;
+  }
+  .cloud-img {
+    height: 800px;
+  }
+  .cloud3img,
+  .cloud2img,
+  .cloud02img,
+  .cloud01img {
+    height: 150px;
+    margin-left: -100px;
+  }
+  .cloud02img {
+    margin-top: 60px;
+  }
+  .cloud2img {
+    margin-left: -250px;
+    margin-top: -70px;
+  }
+  .cloud1img {
+    margin-left: -300px;
+  }
+  .cloud01img {
+    margin-top: 50px;
+    margin-left: -270px;
+  }
+  .moon_text {
+    font-size: 2.5rem;
+    margin-left: 100px;
+    margin-top: 300px;
+  }
+  .para {
+    z-index: 2;
+  }
+}
+
+@media (max-width: 483px) {
+  .heading {
+    margin-top: 320px;
+    font-size: 40px;
+    margin-left: 70px;
+  }
+  .heading2 {
+    font-size: 40px;
+    margin-top: 380px;
+    margin-left: 70px;
+  }
+  .para {
+    margin-left: 78px;
+    font-size: 25px;
+  }
+  .bar1 {
+    margin-left: 80px;
+  }
+  .bar2 {
+    margin-left: 130px;
+  }
+  .moon_text {
+    visibility: hidden;
+  }
+  .nav-left {
+    left: 40%;
+  }
+}
